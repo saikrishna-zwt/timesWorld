@@ -13,6 +13,7 @@ export const fetchCountryList = createAsyncThunk('countrySlice/fetchCountryList'
     try {
         const response = await axios.get("https://restcountries.com/v2/all?fields=name,region,flag")
         const data = response.data;
+        console.log(data,"Daaata")
         return(data)
     } catch (error) {
         rejectWithValue(error)
