@@ -33,6 +33,7 @@ const countrySlice = createSlice({
         },
 
         [fetchCountryList.fulfilled]: (state, action) => {
+            console.log(action,"action.payload")
             state.country = action.payload
             state.loading = false
             state.isSuccess = true
