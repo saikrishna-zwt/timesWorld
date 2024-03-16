@@ -2,6 +2,7 @@ import React from "react";
 import { Col } from "antd";
 
 const CountryListData = ({ countryList }) => {
+  console.log(countryList, "countryList");
 
   return (
     <>
