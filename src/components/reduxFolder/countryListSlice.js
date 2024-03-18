@@ -15,6 +15,7 @@ export const fetchCountryList = createAsyncThunk('countrySlice/fetchCountryList'
         const data = response.data;
         console.log(data);
         return(data,"12344444")
+        console.log("saiii")
     } catch (error) {
         rejectWithValue(error)
     }
