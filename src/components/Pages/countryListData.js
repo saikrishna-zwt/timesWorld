@@ -9,7 +9,7 @@ const CountryListData = ({ countryList }) => {
       {countryList?.map((ele, index) => {
         return (
           <>
-          <h3> Saikrihsna </h3>
+          <h3> Ravi Kumar </h3>
           <Col
             style={{ maxWidth: "100%" }}
             xs={24}
